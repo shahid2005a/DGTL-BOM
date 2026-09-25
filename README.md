@@ -1,7 +1,7 @@
-💥 DGT BOM - Premium SMS Bomber Tool
+💣 DGT BOM - Premium SMS Bomber Tool 💥
 
 <p align="center">
-  <img src="https://github.com/shahid2005a/DGTL-IG/blob/main/DGTL%20IG/DGTLIG.png" alt="DGT BOM Logo" width="350"/>
+  <img src="https://github.com/shahid2005a/DGTL-BOM/blob/main/assets/XDgtlbom.png" alt="DGT BOM Logo" width="350"/>
 </p>
 
 <p align="center">
@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/📜-MIT_License-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚖️-Legal_Notice-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🔐-Encrypted-2ECC71?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📸-SMS_Bomber-E4405F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/💣-SMS_Bomber-E4405F?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🌐-Cloudflare_Tunnel-25D366?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📊-Analytics-8B5CF6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📱-Social_Media-FFD700?style=for-the-badge"/>
@@ -64,7 +64,7 @@
       <th>Performance</th>
     </tr>
     <tr>
-      <td>📸 <b>SMS Bomber</b><br/><sub>Multi-threaded SMS sending</sub></td>
+      <td>💣 <b>SMS Bomber</b><br/><sub>Multi-threaded SMS sending</sub></td>
       <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
       <td><img src="https://img.shields.io/badge/🔒-Encrypted-success"/></td>
       <td><img src="https://img.shields.io/badge/🔴-Admin_Only-red"/></td>
@@ -167,24 +167,24 @@
 
 ---
 
-📦 Installation Guide (Cloudflared pahle install kare kali lunix me fir jake ak ak command ko install kare terminal me)
+📦 Installation Guide 
 
 ```bash
-wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/local/bin/cloudflared
-sudo chmod +x /usr/local/bin/cloudflared
+sudo apt update
+
+sudo apt install python3 python3-pip -y
+
 ```
 
 ⚡ Kali Lunix Command Installation
 
 ```bash
-sudo apt update -y
-sudo apt install python3 python3-pip git unzip -y
-sudo apt install cloudflared -y
-pip3 install flask flask-cors
-git clone https://github.com/shahid2005a/DGTL-IG.git
-cd DGTL-IG
-unzip -o static.zip
-ls -la static/
+git clone https://github.com/shahid2005a/DGTL-BOM.git
+
+cd DGTL-BOM
+
+pip3 install -r requirements.txt
+
 python3 main.py
 ```
 
@@ -192,17 +192,23 @@ python3 main.py
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install python python-pip git openssl-tool termux-tools cloudflared -y
-pip install flask flask-cors telebot pytelegrambotapi
-git clone https://github.com/shahid2005a/DGTL-IG.git
-cd DGTL-IG
-python Main.py
+
+pkg install python git -y
+
+git clone https://github.com/shahid2005a/DGTL-BOM.git
+
+cd DGTL-BOM
+
+pip install -r requirements.txt
+
 ```
 
 ⚡ Single Command Installation
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python python-pip git openssl-tool termux-tools cloudflared -y && pip install flask flask-cors telebot pytelegrambotapi && git clone https://github.com/shahid2005a/DGTL-IG.git && cd DGTL-IG && python Main.py
+chmod +x main.py
+
+python main.py
 ```
 
 ---
