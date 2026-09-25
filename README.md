@@ -1,4 +1,4 @@
-💣 DGT BOM - Premium SMS Bomber Tool 💥
+💣 DGT BOM - Premium SMS Bomber Tool 
 
 <p align="center">
   <img src="https://github.com/shahid2005a/DGTL-BOM/blob/main/assets/XDgtlbom.png" alt="DGT BOM Logo" width="350"/>
@@ -112,7 +112,7 @@
       <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
     </tr>
     <tr>
-      <td>📸 <b>Multi-Service API</b><br/><sub>Rotating SMS endpoints</sub></td>
+      <td>💫 <b>Multi-Service API</b><br/><sub>Rotating SMS endpoints</sub></td>
       <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
       <td><img src="https://img.shields.io/badge/🛡️-Protected-success"/></td>
       <td><img src="https://img.shields.io/badge/🔴-Admin_Only-red"/></td>
@@ -214,56 +214,6 @@ python main.py
 ---
 
 🛠️ Troubleshooting
-
-<p align="center">
-  <table border="1">
-    <tr>
-      <th>Issue</th>
-      <th>Solution</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td>❌ python: command not found</td>
-      <td><code>pkg install python</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ pip: command not found</td>
-      <td><code>pkg install python-pip</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ Permission denied</td>
-      <td><code>termux-setup-storage</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ No module 'flask'</td>
-      <td><code>pip install flask flask-cors telebot pytelegrambotapi</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ Tunnel not working</td>
-      <td>Check internet, wait 30s</td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ Port in use</td>
-      <td>Change port in script</td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ git: command not found</td>
-      <td><code>pkg install git</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-    <tr>
-      <td>❌ cloudflared: not found</td>
-      <td><code>pkg install cloudflared</code></td>
-      <td><img src="https://img.shields.io/badge/✅-Fixed-brightgreen"/></td>
-    </tr>
-  </table>
-</p>
 
 ---
 
@@ -395,7 +345,7 @@ python main.py
 🏆 Badges & Achievements
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📸-SMS_Bomber-E4405F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/💣-SMS_Bomber-E4405F?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📱-Termux_Tool-1DA1F2?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🐍-Python_3.8%2B-3776AB?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🌐-Cloudflare_Tunnel-F38020?style=for-the-badge"/>
@@ -405,7 +355,7 @@ python main.py
   <img src="https://img.shields.io/badge/⚡-Real_Time-FF5722?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🛡️-Privacy_Protected-9B59B6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚖️-Legal_Compliance-3498DB?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📸-Multi_Service-2ECC71?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/💣-Multi_Service-2ECC71?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🌍-Web_Interface-25D366?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📱-Multi_Platform-FFD700?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🔐-Password_Protected-DC143C?style=for-the-badge"/>
@@ -424,7 +374,7 @@ python main.py
   <img src="https://img.shields.io/badge/🔒-Secure_Code-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚖️-Comply_With_Law-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🛡️-No_Warranty-lightgrey?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/📸-Privacy_Respect-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/💣-Privacy_Respect-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚠️-Use_At_Own_Risk-orange?style=for-the-badge"/>
 </p>
 
@@ -433,19 +383,9 @@ python main.py
 🚀 Quick Start
 
 ```bash
-# Clone Repository
-git clone https://github.com/shahid2005a/DGTL-IG.git
-
-# Install Dependencies
-pip install flask flask-cors telebot pytelegrambotapi
-
-# Navigate to Directory
-cd DGTL-IG
-
-# Run Tool
-python Main.py
-
-# Follow On-Screen Instructions
+# 4. 
+chmod +x main.py
+python main.py
 ```
 
 ---
