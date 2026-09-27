@@ -199,7 +199,7 @@ git clone https://github.com/shahid2005a/DGTL-BOM.git
 
 cd DGTL-BOM
 
-pip install -r requirements.txt
+pip install requests rich
 
 ```
 
