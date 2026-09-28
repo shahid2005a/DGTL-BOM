@@ -169,16 +169,20 @@
 
 📦 Installation Guide 
 
+
+📱 Termux (Android) single Command 
+
+```bash
+pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https://github.com/shahid2005a/DGTL-BOM.git && cd DGTL-BOM && pip install requests rich && python main.py
+```
+
+💻 Kali Linux Command 
+
 ```bash
 sudo apt update
 
 sudo apt install python3 python3-pip -y
 
-```
-
-⚡ Kali Lunix Command Installation
-
-```bash
 git clone https://github.com/shahid2005a/DGTL-BOM.git
 
 cd DGTL-BOM
@@ -186,29 +190,6 @@ cd DGTL-BOM
 pip3 install -r requirements.txt
 
 python3 main.py
-```
-
-📱 Termux (Android)
-
-```bash
-pkg update && pkg upgrade -y
-
-pkg install python git -y
-
-git clone https://github.com/shahid2005a/DGTL-BOM.git
-
-cd DGTL-BOM
-
-pip install requests rich
-
-```
-
-⚡ Single Command Installation
-
-```bash
-chmod +x main.py
-
-python main.py
 ```
 
 ---
